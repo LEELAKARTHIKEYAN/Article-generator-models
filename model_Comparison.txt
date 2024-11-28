@@ -1,0 +1,33 @@
+Key Metrics for Evaluation
+-Grammar Errors: Indicates the grammatical correctness of the generated text. Fewer errors are better.
+-Readability Score: Measures the ease of reading the generated text (higher scores indicate easier readability).
+-Word Count: Represents the verbosity and coverage of the generated text. An appropriate word count contributes to better content quality.
+-Perplexity: Reflects how well the model predicts text. Lower perplexity indicates better performance and coherence.
+
+
+Performance Comparison
+Model	       Grammar Errors | Readability Score |	Word Count | Perplexity
+GPT-Neo	          0	                  60.31	           396	      1.676
+BLOOM-560M	      19	              8.64	           308	      31.173
+OPT-125M	      7	                  54.02	           413	      7.631
+
+Based on the comparison:
+
+GPT-Neo emerges as the most suitable model for article generation:
+
+Perfect grammar.
+Best readability.
+Low perplexity.
+Balanced word count.
+OPT-125M is a close second:
+
+Good readability and coherence.
+Slightly more verbose, which may be desirable depending on the application.
+Minor grammar issues.
+BLOOM-560M performs the weakest:
+
+High grammar errors.
+Poor readability and coherence.
+Insufficient word count.
+
+Final Verdict: GPT-Neo is the most appropriate choice for generating high-quality articles.
